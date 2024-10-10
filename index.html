@@ -1,11 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="bookstyle.css">
+        <title>BDY</title>
+    </head>
+    
+    <body>
+    
+        <div class="container">
+            <aside class="sidebar">
+                <div class="logo">
+                    <button class="menu-btn" id="menu-close">
+                        <i class='bx bx-log-out-circle'></i>
+                    </button>
+                    <i class='bx bxl-netlify' ></i>
+                    <a href="#">BDY</a>
+                </div>
+    
+                <div class="menu">
+                    <h5>Menu</h5>
+                    <ul>
+                        <li class="active">
+                            <i class='bx bxs-compass' ></i>
+                            <a href="#">Explore</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-book'></i>
+                            <a href="#">Genres</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-pen'></i>
+                            <a href="#">Authors</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-award'></i>
+                            <a href="#">Bestsellers</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-cart'></i>
+                            <a href="BDY_Cart.html">Cart</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-bookmark-heart'></i>
+                            <a href="BDY_Wishlist.html">Wishlist</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="menu">
+                    <h5>Library</h5>
+                    <ul>
+                        <li>
+                            <i class='bx bx-history'></i>
+                            <a href="#">History</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-heart'></i>
+                            <a href="#">Favourites</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-folder'></i>
+                            <a href="#">Local</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="menu">
+                    <h5>Playlist</h5>
+                    <ul>
+                        <li>
+                            <i class='bx bxs-plus-square'></i>
+                            <a href="#">Create New</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-caret-right-circle'></i>
+                            <a href="#">Action & Adventure</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-caret-right-circle'></i>
+                            <a href="#">Business</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-caret-right-circle'></i>
+                            <a href="#">History</a>
+                        </li>
+    
+                    </ul>
+                </div>
+    
+                <div class="playing">
+                    <div class="top">
+                        <img src="assets/profile.png">
+                        <h4>Apple<br>Airpods Pro</h4>
+                    </div>
+                    <div class="bottom">
+                        <i class='bx bx-podcast'></i>
+                        <p>Playing On Device</p>
+                    </div>
+                </div>
+    
+    
+            </aside>
+    
+            <main>
+                <header>
+                    <div class="nav-links">
+                        <button class="menu-btn" id="menu-open">
+                            <i class='bx bx-menu'></i>
+                        </button>
+                    </div>
+    
+                    <div class="search">
+                        <i class='bx bx-search'></i>
+                        <input type="text" placeholder="Type here to search">
+                    </div>
+    
+                </header>
+    
+                <div class="carousel">
+                    <div class="trending">
+                        <div class="left">
+                            <h5>Trending New Book</h5>
+                            <div class="info">
+                                <h2 class="animate">Dune</h2>
+                                <h4 class="animate">Frank Herbert</h4>
+                                <h5 class="animate">53 Million Reads</h5>
+                                <div class="buttons">
+                                    <button class="animate grow">Read Now</button>
+                                    <i class='bx bxs-heart'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="assets/dune.jpg">
+                    </div>
+                    <div class="trending">
+                        <div class="left">
+                            <h5>Editors' Pick</h5>
+                            <div class="info">
+                                <h2 class="animate">American Gods</h2>
+                                <h4 class="animate">Neil Gaiman</h4>
+                                <h5 class="animate">12 Million Reads</h5>
+                                <div class="buttons">
+                                    <button class="animate grow">Read Now</button>
+                                    <i class='bx bxs-heart'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="assets/american.jpg">
+                    </div>
+                    <div class="trending">
+                        <div class="left">
+                            <h5>Coming Soon</h5>
+                            <div class="info">
+                                <h2 class="animate">Where's Molly</h2>
+                                <h4 class="animate">H. D. Carlton</h4>
+                                <h5 class="animate">Coming Soon</h5>
+                                <div class="buttons">
+                                    <button class="animate grow">Pre-order Now</button>
+                                    <i class='bx bxs-heart'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="assets/where.jpg">
+                    </div>
+                    <div class="trending">
+                        <div class="left">
+                            <h5>Plans & Pricing</h5>
+                            <div class="info">
+                                <h2 class="animate">BDY Plus</h2>
+                                <h4 class="animate">$7.95</h4>
+                                <h5 class="animate">per month</h5>
+                                <div class="buttons">
+                                    <button class="animate grow">Upgrade Now</button>
+                                    <i class='bx bxs-heart'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="assets/plans.png">
+                    </div>
+                </div>
+    
+                <div class="playlist">
+                    <div class="genres">
+                        <div class="header">
+                            <h5>Genres</h5>
+                            <a href="#">See all</a>
+                        </div>
+    
+                        <div class="items">
+                            <div class="item">
+                                <p>Fantasy</p>
+                            </div>
+                            <div class="item">
+                                <p>Science<br>Fiction</p>
+                            </div>
+                            <div class="item">
+                                <p>Action<br>Adventure</p>
+                            </div>
+                            <div class="item">
+                                <p>Mystery</p>
+                            </div>
+                            <div class="item">
+                                <p>Horror</p>
+                            </div>
+                            <div class="item">
+                                <p>Thriller<br>Suspense</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="music-list">
+                        <div class="header">
+                            <h5>Top Books</h5>
+                            <a href="#">See all</a>
+                        </div>
+    
+                        <div class="items">
+                            <div class="item">
+                                <div class="info">
+                                    <p>01</p>
+                                    <img src="assets/atomic.jpg">
+                                    <div class="details">
+                                        <h5>Atomic Habits</h5>
+                                        <p>James Clear</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <p>25$</p>
+                                    <div class="icon">
+                                        <i class='bx bxs-cart-add'></i>
+                                    </div>
+                                    <div class="icon">
+                                        <i class='bx bxs-bookmark-heart'></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <p>02</p>
+                                    <img src="assets/american.jpg">
+                                    <div class="details">
+                                        <h5>American Gods</h5>
+                                        <p>Neil Gaiman</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <p>13$</p>
+                                    <div class="icon">
+                                        <i class='bx bxs-cart-add'></i>
+                                    </div>
+                                    <div class="icon">
+                                        <i class='bx bxs-bookmark-heart'></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <p>03</p>
+                                    <img src="assets/impact.jpg">
+                                    <div class="details">
+                                        <h5>Impact Winter</h5>
+                                        <p>Travis Beacham</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <p>24$</p>
+                                    <div class="icon">
+                                        <i class='bx bxs-cart-add'></i>
+                                    </div>
+                                    <div class="icon">
+                                        <i class='bx bxs-bookmark-heart'></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <p>04</p>
+                                    <img src="assets/firstlie.jpg">
+                                    <div class="details">
+                                        <h5>First Lie Wins</h5>
+                                        <p>Ashley Elston</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <p>17$</p>
+                                    <div class="icon">
+                                        <i class='bx bxs-cart-add'></i>
+                                    </div>
+                                    <div class="icon">
+                                        <i class='bx bxs-bookmark-heart'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+    
+            <div class="right-section">
+    
+                <div class="profile">
+                    <i class='bx bxs-bell'></i>
+                    <div id="user" class="user">
+                        <div class="left">
+                            <img src="assets/profile.png">
+                        </div>
+                        <div class="right">
+                            <h5>...</h5>
+                        </div>
+                    </div>
+                    <div id="dropdown-menu" class="dropdown-menu">
+                        <div>
+                            <img src="assets/profile.png" alt="User Profile Picture">
+                            <div class="user-info">
+                                <p>Jack Swanson</p>
+                                <p>jackswanson@exe.com</p>
+                            </div>
+                        </div>
+                        <button class="logout-button">Sign Out</button>
+                    </div>
+                </div>
+    
+                <div class="music-player">
+                    <div class="top-section">
+                        <div class="header">
+                            <h5>Player</h5>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </div>
+                        <div class="song-info">
+                            <img src="assets/thehunger.jpg">
+                            <div class="description">
+                                <h3>The Hunger Games: Special Edition</h3>
+                                <h5>Suzanne Collins</h5>
+                                <p>Action & Adventure</p>
+                            </div>
+                            <div class="progress">
+                                <p>10:02:45</p>
+                                <div class="active-line"></div>
+                                <div class="deactive-line"></div>
+                                <p>03:01:02</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="player-actions">
+                        <div class="buttons">
+                            <i class='bx bx-repeat'></i>
+                            <i class='bx bx-first-page'></i>
+                            <i class='bx bxs-right-arrow play-button'></i>
+                            <i class='bx bx-last-page'></i>
+                            <i class='bx bx-transfer-alt'></i>
+                        </div>
+                        <div class="lyrics">
+                            <i class='bx bx-chevron-up'></i>
+                            <h5>CAPTIONS</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="bookscript.js"></script>
+    </body>
 </html>
