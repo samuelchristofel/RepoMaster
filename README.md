@@ -28,6 +28,6 @@ Our goal is to create a basic, responsive website using HTML, CSS, and JavaScrip
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/yourprojectname.git
+    git clone https://github.com/samuelchristofel/RepoMaster.git
     ```
 2. Open the `index.html` file in your preferred web browser.
