@@ -21,6 +21,7 @@ img{
     object-fit: cover;
     object-position: top;
     border-radius: 8px;
+}
 
 html,
 body{
@@ -50,3 +51,4 @@ body{
     display: flex;
     align-items: center;
     gap: 6px;
+}
