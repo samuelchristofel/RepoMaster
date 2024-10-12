@@ -140,3 +140,54 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
+.container main header .nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.container main header .nav-links a{
+    text-transform: uppercase;
+    color: #919191;
+    transition: all 0.3s ease;
+}
+.container main header .search{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 70%;
+    background-color: #1d1d1d;
+    border: 1px solid #464748;
+    padding: 10px;
+    border-radius: 8px;
+}
+.container main header .search input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.container main .trending{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.container main .trending .left .info{
+    margin-top: 12px;
+    padding: 26px;
+}
+.container main .trending .left .info h2{
+    font-size: 56px;
+    margin-bottom: 8px;
+}
+.container main .trending .left .info h4,
+.container main .trending .left .info h5{
+    display: inline;
+}
+.container main .trending .left .info h5{
+    margin-left: 12px;
+    color: #919191;
+}
