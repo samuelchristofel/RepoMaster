@@ -355,3 +355,105 @@ body{
 .container main .playlist .music-list .items .item .actions i{
     color: #919191;
 }
+
+.container .right-section{
+    padding: 20px 36px 20px 0;
+}
+
+.container .right-section .profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 18px;
+    margin-bottom: 40px;
+}
+
+.container .right-section .profile .user{
+    display: flex;
+}
+
+.container .right-section .profile .user .left{
+    display: flex;
+    align-items: center;
+    background: #32323d;
+    padding: 6px;
+    border-radius: 6px 0 0 6px;
+}
+
+.container .right-section .profile .user .left img{
+    width: 30px;
+    height: 30px;
+}
+
+.container .right-section .profile .user .right{
+    background-color: #25252d;
+    border-radius: 0 6px 6px 0;
+    padding: 13px;
+    color: #fff;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgba(37, 37, 45, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: linear-gradient(rgba(37, 37, 45, 0.5), rgba(37, 37, 45, 0.5));
+    min-width: 160px;
+    z-index: 1;
+    top: 7%;
+    min-width: 300px;
+    transform-origin: top;
+    animation: slideDown 0.5s ease-out;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.dropdown-menu div {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+}
+
+.dropdown-menu div img {
+    width: 70px;
+    height: auto;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 17px;
+    max-width: 200px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.user-info div::-webkit-scrollbar {
+    display: none;
+}
+
+.logout-button {
+    background-color: #5773ff;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px;
+}
+
+@keyframes slideDown {
+  0% { transform: scaleY(0); }
+  100% { transform: scaleY(1); }
+}
+
+@keyframes slideUp {
+  0% { transform: scaleY(1); }
+  100% { transform: scaleY(0); }
+}
